@@ -18,4 +18,4 @@ jobs:
       - name: Upload Artifacts
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/libs/vanguard-$GITHUB_REF_NAME.jar"
+          artifacts: "build/libs/vanguard-*.jar"
