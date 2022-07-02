@@ -1,0 +1,4 @@
+main: xyz.hyperspark.vanguard.Main
+name: Vanguard
+version: 0.0.1
+api-version: 1.18
