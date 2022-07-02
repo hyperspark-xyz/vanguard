@@ -14,7 +14,7 @@ jobs:
       - name: Execute Gradle build
         run: ./gradlew shadowJar
       - name: Rename output
-        run: mv build/libs/vanguard-1.0-snapshot.jar build/libs/vanguard-$GITHUB_REF_NAME.jar
+        run: mv build/libs/vanguard-1.0-SNAPSHOT.jar build/libs/vanguard-$GITHUB_REF_NAME.jar
       - name: Upload Artifacts
         uses: ncipollo/release-action@v1
         with:
